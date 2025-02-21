@@ -27,8 +27,6 @@ class OnStepConfigurator:
 
         ttk.Button(btn_frame, text="Save Preset", command=self.save_preset).pack(side=tk.LEFT, padx=5)
         ttk.Button(btn_frame, text="Load Preset", command=self.load_preset).pack(side=tk.LEFT, padx=5)
-       # ttk.Button(btn_frame, text="Import CSV", command=self.import_csv).pack(side=tk.LEFT, padx=5)
-       # ttk.Button(btn_frame, text="Export CSV", command=self.export_csv).pack(side=tk.LEFT, padx=5)
         ttk.Button(btn_frame, text="Fetch from GitHub", command=self.fetch_from_github).pack(side=tk.LEFT, padx=5)
         ttk.Button(btn_frame, text="Generate Config", command=self.generate_config).pack(side=tk.LEFT, padx=5)
 
